@@ -16,9 +16,11 @@
           border-radius: 5px;
           border: 1px solid lightgray;
           margin-top: 5px;
+          padding-left: 10px
         "
         id="firstname"
         formControlName="firstname"
+        placeholder="Enter you first name"
       />
       @if(userForm.get('firstname')?.hasError('required') &&
       userForm.get('firstname')?.touched){
@@ -39,9 +41,11 @@
           border-radius: 5px;
           border: 1px solid lightgray;
           margin-top: 5px;
+          padding-left: 10px;
         "
         id="lastname"
         formControlName="lastname"
+        placeholder="Enter you last name"
       />
       @if(userForm.get('lastname')?.hasError('required') &&
       userForm.get('lastname')?.touched){
@@ -62,9 +66,11 @@
           border-radius: 5px;
           border: 1px solid lightgray;
           margin-top: 5px;
+          padding-left: 10px
         "
         id="email"
         formControlName="email"
+        placeholder="Enter you email"
       />
       @if(userForm.get('email')?.hasError('required') &&
       userForm.get('email')?.touched){
@@ -88,9 +94,11 @@
           border-radius: 5px;
           border: 1px solid lightgray;
           margin-top: 5px;
+          padding-left: 10px
         "
         id="phone"
         formControlName="phone"
+        placeholder="Enter you phone number"
       />
       @if(userForm.get('phone')?.hasError('required') &&
       userForm.get('phone')?.touched){
@@ -108,7 +116,7 @@
       class="form-button"
       style="
         font-family: sans-serif;
-        width: 300px;
+        width: 310px;
         height: 40px;
         border-radius: 10px;
       "

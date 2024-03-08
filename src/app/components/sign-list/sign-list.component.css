@@ -1,19 +1,28 @@
 .example-card {
     max-width: 500px;
     border: 2x solid lightray;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 450px;
   }
   
   .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+    background-color: rgb(33, 33, 246)s;;
     background-size: cover;
+    font-size: 30px;
+    padding-top: 16px;
+    color:  rgb(48, 48, 247)s;
+    padding-left: 12px;
+    padding-right: -10px;
   }
 
   /* Add this to your component's CSS or styles.scss file */
 .profile-image {
   width:57;
   height: 40px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: rgb(83, 83, 248)s;;
+  color:  rgb(42, 42, 240);
   border-radius: 50%;
   display: flex;
   align-items: center;
