@@ -8,7 +8,7 @@ import { User } from '../models/user'
 })
 export class UserService {
 
-  private apiUrl = 'https://node-demo-0zx9.onrender.com'
+  private apiUrl = 'https://node-demo-0zx9.onrender.com/api/uses'
 
   constructor(private http: HttpClient) { }
 
