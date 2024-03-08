@@ -8,7 +8,7 @@ import { User } from '../models/user'
 })
 export class UserService {
 
-  private apiUrl = 'https://node-demo-blush.vercel.app/api/users'
+  private apiUrl = 'https://node-demo-hwh938n0c-bob-0f3d1387.vercel.app/api/users'
 
   constructor(private http: HttpClient) { }
 
@@ -17,7 +17,7 @@ export class UserService {
   }
 
   addUser(user: any) {
-    return this.http.post('https://node-demo-blush.vercel.app/api/users', user);
+    return this.http.post('https://node-demo-hwh938n0c-bob-0f3d1387.vercel.app/api/users', user);
   } 
 
 }
