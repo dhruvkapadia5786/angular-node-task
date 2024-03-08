@@ -8,7 +8,7 @@ import { User } from '../models/user'
 })
 export class UserService {
 
-  private apiUrl = 'https://node-demo-0zx9.onrender.com/api/users'
+  private apiUrl = 'https://node-demo-r8358seko-bob-0f3d1387.vercel.app/api/users'
 
   constructor(private http: HttpClient) { }
 
@@ -17,7 +17,7 @@ export class UserService {
   }
 
   addUser(user: any) {
-    return this.http.post('https://node-demo-0zx9.onrender.com/api/users', user);
+    return this.http.post('https://node-demo-r8358seko-bob-0f3d1387.vercel.app/api/users', user);
   } 
 
 }

@@ -1,31 +1,48 @@
-.example-card {
-    max-width: 500px;
-    border: 2x solid lightray;
-    margin-bottom: 10px;
-    height: 80px;
-    width: 450px;
-  }
-  
-  .example-header-image {
-    /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
-    background-color: rgb(33, 33, 246)s;;
-    background-size: cover;
-    font-size: 30px;
-    padding-top: 16px;
-    color:  rgb(48, 48, 247)s;
-    padding-left: 12px;
-    padding-right: -10px;
-  }
-
-  /* Add this to your component's CSS or styles.scss file */
-.profile-image {
-  width:57;
-  height: 40px;
-  background-color: rgb(83, 83, 248)s;;
-  color:  rgb(42, 42, 240);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
+.container {
+  border: 1px solid lightgray;
+  display: table-caption;
   justify-content: center;
-  font-size: 22px;
-  margin-right: 15px; }
+  padding: 10%;
+  margin: 50px;
+}
+
+.heading {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid lightgray;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 170%;
+}
+
+.profile-image {
+  /* Add your styles for the profile image here */
+}
+
+.card-header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-subtitle {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.example-card {
+  /* Add any common styles for your mat-card here */
+}

@@ -14,9 +14,7 @@ import { UserService } from '../../services/user.service';
 export class SignListComponent {
   @Input() users: User[] = [];
 
-  constructor(public userService: UserService){
-
-  }
+  constructor(public userService: UserService){}
 
   ngOnInit(): void {
     this.userService.getUsers().subscribe(users => {
