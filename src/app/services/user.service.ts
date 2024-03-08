@@ -8,7 +8,7 @@ import { User } from '../models/user'
 })
 export class UserService {
 
-  private apiUrl = 'http://localhost:3001/api/users'
+  private apiUrl = 'https://node-demo-0zx9.onrender.com'
 
   constructor(private http: HttpClient) { }
 
@@ -17,7 +17,7 @@ export class UserService {
   }
 
   addUser(user: any) {
-    return this.http.post('http://localhost:3001/api/users', user);
+    return this.http.post('https://node-demo-0zx9.onrender.com/api/users', user);
   } 
 
 }
