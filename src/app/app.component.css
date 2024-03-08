@@ -1,0 +1,6 @@
+.main-container{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
