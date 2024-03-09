@@ -21,10 +21,6 @@
   width: 170%;
 }
 
-.profile-image {
-  /* Add your styles for the profile image here */
-}
-
 .card-header {
   display: flex;
   padding: 0;
@@ -44,5 +40,6 @@
 }
 
 .example-card {
-  /* Add any common styles for your mat-card here */
+  width: 450px;
+  margin-bottom: 10px;
 }
